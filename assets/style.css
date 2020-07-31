@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ultra&display=swap");
+
+*,
+html {
+  list-style: none;
+  text-decoration: none;
+  font-family: candara;
+  text-align: justify;
+}
+
+a:visited,
+a:active {
+  color: initial;
+}
+a:hover {
+  color: blue;
+}
+@media (max-width: 991px) {
+  .nav-item .nav-link {
+    text-align: center;
+  }
+}
+.navbar-brand {
+  font-family: "Archivo Black", sans-serif;
+  /* font-family: "Ultra", serif; */
+}
+.nav-item .nav-link {
+  padding: 0.7rem;
+  margin: auto 50px;
+}
+
+.navbar {
+  background: #20ff90;
+}
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-content {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.img-content img {
+  width: 100%;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: #20ff90;
+}
+
+footer div i {
+  font-size: 2.5rem;
+}
+
+.media-card {
+  border: 2px dashed #20ff90;
+}
+
+.media-card img {
+  width: 100%;
+  height: auto;
+  margin: auto auto;
+}
+
+table,
+th,
+td {
+  border-radius: none;
+  padding: 10px;
+}
+
+mark {
+  background-color: yellow;
+}
+.btn-outline-custom {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn-outline-custom:hover {
+  border: 1px solid #1c57c4;
+  color: #1c57c4;
+}
+
+.hover-elem {
+  display: none;
+  width: 93%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.493);
+  font-weight: bolder;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hover-elem h3 {
+  background-color: teal;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.493), 0 -4px 4px rgba(0, 0, 0, 0.493);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.hover-elem h3 a:hover,
+.hover-elem h3 a:active {
+  text-decoration: none;
+  color: yellow;
+}
